@@ -1,5 +1,9 @@
 import React from 'react';
-
+import './resume.css';
+import gmail from './gmail.png';
+import github from './github.png';
+import home from './home.png';
+import phone from './phone.png';
 /* eslint-disable */
 class Resume extends React.Component{
 
@@ -13,15 +17,14 @@ class Resume extends React.Component{
             <div className="left"></div>
             <div className="stuff">
                     <h2>Demetrius King Jr.</h2>
+                <ul>
+                    <li> <img src={home} className={"home"}/> 225 Central Ave SW, Atlanta, GA 30303</li>
+                    <li><img src={gmail} className={"gmail"}/> drking445@gmail.com </li>
+                    <li><img src={github} className={"github"}/> github.com/drking445 </li>
+                    <li> <img src={phone} className={"phone"}/>(404) 593-3893</li>
+                </ul>
                     <hr/>
-                        <p className="head">Interests</p>
-                        <ul>
-                            <li>Drawing</li>
-                            <li>Photography</li>
-                            <li>Design</li>
-                            <li>Programming</li>
-                            <li>Computer Science</li>
-                        </ul>
+
                         <p className="head">Skills</p>
                         <ul>
                             <li>Web Design with HTML & CSS</li>

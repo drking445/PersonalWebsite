@@ -5,7 +5,7 @@
     padding-top: 30px;
     padding-bottom: 10px;
 }
-.bg-2 {
+.bg-2:not(.img) {
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
     width:100%;
@@ -38,6 +38,18 @@ a:visited{
     padding-top: 10px;
     border-radius: 0;
     margin-bottom: 0;
+}
+
+.linkedin{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.youtube{
+    width: 200px;
+    height: 100px;
+    display: block;
 }
 
 #nav{
