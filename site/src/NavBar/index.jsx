@@ -11,6 +11,6 @@ const NavBar = () => (
         <li><Link to={'/about'}>About Me </Link></li>
     </ul>
     </html>
-)
+);
 
 export default NavBar;

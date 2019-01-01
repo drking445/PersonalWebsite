@@ -25,13 +25,13 @@ class About extends React.Component{
 
             <div className="container-fluid bg-2 text-center">
                 <h3>LinkedIn</h3>
-                <a target="_blank" href={"https://www.linkedin.com/in/kingdemetrius/"}><img src={linkedin} className={"linkedin"}/></a>
+                <a target="_blank" href={"https://www.linkedin.com/in/kingdemetrius/"}><img src={linkedin} className={"linkedin"} alt={"LinkedIn"}/></a>
                 <p>Please follow my LinkedIn account to get updated on my experiences and skills and join my network!</p>
             </div>
 
             <div className="container-fluid bg-3 text-center">
                 <h3>Youtube</h3>
-                <a target="_blank" href={"https://www.youtube.com/channel/UCShc-i-gxRyzu6kmKOVgCJA?view_as=subscriber"}><img src={youtube} alt="Youtube" className={"youtube"}/></a>
+                <a target="_blank" href={"https://www.youtube.com/channel/UCShc-i-gxRyzu6kmKOVgCJA?view_as=subscriber"}><img src={youtube} alt="Youtube" className={"youtube"} alt={"Youtube"}/></a>
                 <p>Please follow my Youtube channel to be updated on my videos where I plan to update my journey on software development and machine learning! </p>
             </div>
             </body>

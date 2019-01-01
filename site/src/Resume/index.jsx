@@ -30,6 +30,7 @@ class Resume extends React.Component{
                             <li>Web Design with HTML & CSS</li>
                         </ul>
                         <p className="head">Education</p>
+                        <body>
                         <ul>
                             <a href="http://www.wiltonhighschool.org/pages/Wilton_High_School">
                                 <li>Wilton High School</li>
@@ -39,6 +40,7 @@ class Resume extends React.Component{
                             </a>
                             <li>Codeacademy</li>
                         </ul>
+                        </body>
                         <p className="head">Experience</p>
                         <ul>
                             <li>Student Technology Intern for Wilton School District</li>
