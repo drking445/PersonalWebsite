@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-
+import  jordan from './jordans.png';
 class HomePage extends React.Component {
 
     render() {
@@ -12,7 +12,7 @@ class HomePage extends React.Component {
             <h2>New Production Build</h2>
             <body>
             Projects Will Be Shown Here:
-
+            <img src={jordan} className={"jordan"}/>
 
             <body> This is the Flinder application: </body>
             </body>
