@@ -2,12 +2,47 @@ h2{
     text-align: center;
 }
 
+@media (max-width: 960px) and (min-width: 501px) {
+    li { width: 50%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+    img { width: 50%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+}
+
+@media (max-width: 500px) {
+    li { width: 100%; } /* On small screens, show one logo per row */
+    img { width: 100%; } /* On small screens, show one logo per row */
+}
+
+@media (max-width: 960px) {
+
+    li {
+         display: inline-block;
+     }
+
+    img {
+        display: inline-block;
+    }
+}
+
+.header{
+    display: inline;
+}
+
 .github{
     width: 50px;
     height: 50px;
     display: inline-block;
     position: relative;
     top: 8px;
+}
+
+.tech{
+    float: left;
+    clear: both;
+}
+
+.intern{
+    clear: both;
+    padding-top: 10px;
 }
 
 .gmail{

@@ -6,16 +6,13 @@ class HomePage extends React.Component {
     render() {
         return (
             <html>
+            <body className={"ab"}>
             <title>A Peak Into My Life</title>
-            <body>
-            <h1> Demetrius King Jr.</h1>
-            <h2>New Production Build</h2>
-            <body>
-            Projects Will Be Shown Here:
-            <img src={jordan} className={"jordan"}/>
+            <h1> Demetrius King</h1>
+            <h2>Welcome to my HomePage!</h2>
+            <p className={"homep"}>Here you can learn more about me, looking at my resume, and observe some of my passion projects!</p>
+            <img src={jordan} className={"jordan"} align="middle"/>
 
-            <body> This is the Flinder application: </body>
-            </body>
             </body>
             </html>
         );

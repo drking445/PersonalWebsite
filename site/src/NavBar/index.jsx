@@ -4,11 +4,11 @@ import '../About Me/about.css';
 const NavBar = () => (
     <html>
     <ul className="container-fluid bg-4 text-center">
-        <li><Link to={'/'}>Home </Link></li>
-        <li><Link to='/projects'>Projects</Link></li>
-        <li>Future Work</li>
-        <li><Link to={'/resume'}>Resume</Link></li>
-        <li><Link to={'/about'}>About Me </Link></li>
+        <li className={"nav"}><Link to={'/'}>Home </Link></li>
+        <li className={"nav"}><Link to='/projects'>Projects</Link></li>
+        <li className={"nav"}>Future Work</li>
+        <li className={"nav"}><Link to={'/resume'}>Resume</Link></li>
+        <li className={"nav"}><Link to={'/about'}>About Me </Link></li>
     </ul>
     </html>
 );
