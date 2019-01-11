@@ -33,7 +33,7 @@ class Resume extends React.Component{
                         <p>University of Chicago, PhD Machine Learning</p>
                 <p className="head"><b>Technical Skills</b></p>
                 <div>
-                        <ul>
+                        <ul className={"resume"}>
                             <li className={"tech"}>Beginner proficiency with React and Angular frameworks</li>
                             <li className={"tech"}>Intermediate proficiency with Swift, Java, Python, C++, and Ruby on Rails</li>
                             <li className={"tech"}>Intermediate proficiency using HTML and CSS</li>
@@ -41,7 +41,7 @@ class Resume extends React.Component{
                 </div>
                 <div className={"intern"}>
                     <p><b>Internship Experience</b></p>
-                        <ul>
+                        <ul className={"resume"}>
                             <li>Recycling Club</li>
                             <li>Gardening Club</li>
                             <li>Book Club</li>
