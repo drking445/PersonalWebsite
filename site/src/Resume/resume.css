@@ -52,6 +52,8 @@ h2{
 .tech{
     float: left;
     clear: both;
+    /*display: list-item;
+    list-style: disc; */
 }
 
 .intern{
