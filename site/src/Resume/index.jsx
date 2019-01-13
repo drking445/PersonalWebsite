@@ -63,6 +63,30 @@ class Resume extends React.Component{
                     <li className={"tech"}>• Developed SQLite database to hold user information and RESTful calls to backend to display profile data upon the user logging into the native iOS application</li>
                 </ul>
             </div>
+
+            <div className={"intern"}>
+                <h3><b>Projects</b></h3>
+                <p><b>College Suggestion Web App</b></p>
+                <ul className={"resume"}>
+                    <li className={"tech"}>• Developed a website that makes suggests to users on colleges with a certain average starting salary after graduation using a BigQuery database built into Google App Engine, making queries to the database using a Java API and javascript for the buttons</li>
+                </ul>
+                <p><b>Shoppers Web App</b></p>
+                <ul className={"resume"}>
+                    <li className={"tech"}>• Built a React web application that allows users to buy, sell and lend shoes. The application uses Google Vision to find similar shoes to suggest to users based on the type of shoes they are looking for. It also utilizes machine learning on the backend to validate if the shoes in are in condition to sell or lend using a series of classification techniques. Deployed this application using Google App Engine</li>
+                </ul>
+            </div>
+            <div className={"intern"}>
+                <h3><b>Leadership/Awards</b></h3>
+                <p className={"awards"}>
+                    McNair Scholar                                                  Member                                                      Spring 2017
+                    <br/>
+                    Code2040 Fellow                                                 Fellow                                                      Summer 2017/2018
+                    <br/>
+                    BDPA Atlanta Chapter                                            Member                                                      Spring 2015-Present
+                    <br/>
+                    Beta Kappa Chi Honor Society                                    Vice President                                              Spring 2016-Present
+                </p>
+            </div>
             </body>
             </html>
 
