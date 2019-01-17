@@ -5,6 +5,7 @@ import HomePage from './HomePage';
 import Resume from './Resume';
 import About from './About Me';
 import Nav from './NavBar';
+import FutureWork from './FutureWork';
 
 const Routes = () => (
     <main>
@@ -14,6 +15,7 @@ const Routes = () => (
         <Route exact path='/projects' component={Projects}/>
         <Route exact path='/resume' component={Resume}/>
         <Route exact path='/about' component={About}/>
+        <Route exact path='/future' component={FutureWork}/>
     </Switch>
     </main>
 )
