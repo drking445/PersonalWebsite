@@ -34,9 +34,9 @@ class Resume extends React.Component{
                 <h3 className="head"><b>Technical Skills</b></h3>
                 <div>
                         <ul className={"resume"}>
-                            <li className={"tech"}>Beginner proficiency with React and Angular frameworks</li>
+                            <li className={"tech"}>Beginner proficiency with Angular JS</li>
                             <li className={"tech"}>Intermediate proficiency with Swift, Java, Python, C++, and Ruby on Rails</li>
-                            <li className={"tech"}>Intermediate proficiency using HTML and CSS</li>
+                            <li className={"tech"}>Intermediate proficiency using HTML and CSS and React</li>
                         </ul>
                 </div>
                 <div className={"intern"}>
