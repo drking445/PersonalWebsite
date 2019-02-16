@@ -11,11 +11,18 @@
     width:100%;
     padding-bottom: 10px;
 }
+
+
 .bg-3 {
     background-color: #ffffff; /* White */
     color: #555555;
     width:100%;
     padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
 }
 
 .bg-4 {
@@ -28,6 +35,25 @@
     margin:0 auto;
     margin-bottom: 200px;
     padding-bottom: 10px;
+}
+
+.bg-5 {
+    background-color: lightsteelblue; /* Dark Blue */
+    color: black;
+    width:100%;
+    padding-bottom: 10px;
+}
+
+.bg-5 img {
+    width: 175px;
+}
+
+.footer{
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    display: block;
+    clear: both;
 }
 
 a:visited{
@@ -46,6 +72,12 @@ a:visited{
     display: block;
 }
 
+.medium{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
 .youtube{
     width: 200px;
     height: 100px;
@@ -58,6 +90,13 @@ a:visited{
 
 body .ab{
     background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf   100%);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body .ab2{
+    background-image: linear-gradient(260deg, indianred 0%, yellow   100%);
     width: 100%;
     margin: 0;
     padding: 0;
@@ -86,7 +125,7 @@ body .ab{
         right: 0;
         top: 0;
         height: 50px;
-        padding-left: 25px;
+        padding-left: 45px;
         width: 50px;
         display: inline;
         text-align: left;
@@ -107,7 +146,7 @@ body .ab{
         display: block;
         text-align: left;
         padding: 1px;
-        padding-left: 40px;
+        padding-left: 45px;
     } /* On small screens, show one logo per row */
 
     li {
@@ -115,7 +154,7 @@ body .ab{
         right: 0;
         top: 0;
         height: 50px;
-        padding-left: 25px;
+        padding-left: 45px;
         width: 50px;
         font-size: 34px;
         display: inline;
@@ -143,7 +182,7 @@ body .ab{
     li {
         position: absolute;
         margin: 0 0 3px 0;
-        padding-left: 25px;
+        padding-left: 45px;
         right: 0;
         top: 0;
         height: 50px;

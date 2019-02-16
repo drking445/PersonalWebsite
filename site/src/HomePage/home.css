@@ -9,11 +9,8 @@ li {
     text-align: center;
 }
 
-body {
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    /*background-image: url("../HomePage/backdrop.jpg"); */
+.homepage{
+    padding-top: 55px;
 }
 
 h1{

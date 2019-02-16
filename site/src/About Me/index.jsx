@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css';
 import linkedin from './images/linkedin.png';
 import youtube from './images/youtube.png';
+import medium from './images/medium.jpeg';
 /* eslint-disable */
 
 
@@ -26,7 +27,7 @@ class About extends React.Component{
 
             <div className="container-fluid bg-2 text-center">
                 <h3>LinkedIn</h3>
-                <a target="_blank" href={"https://www.linkedin.com/in/kingdemetrius/"}><img src={linkedin} className={"linkedin"} alt={"LinkedIn"}/></a>
+                <div><a target="_blank" href={"https://www.linkedin.com/in/kingdemetrius/"}><img src={linkedin} className={"linkedin"} alt={"LinkedIn"}/></a></div>
                 <p>Please follow my LinkedIn account to get updated on my experiences and skills and join my network!</p>
             </div>
 
@@ -35,12 +36,14 @@ class About extends React.Component{
                 <a target="_blank" href={"https://www.youtube.com/channel/UCShc-i-gxRyzu6kmKOVgCJA?view_as=subscriber"}><img src={youtube} alt="Youtube" className={"youtube"} alt={"Youtube"}/></a>
                 <p>Please follow my Youtube channel to be updated on my videos where I plan to update my journey on software development and machine learning! </p>
             </div>
+
+            <div className="container-fluid bg-5 text-center">
+                <h3>Medium</h3>
+                <a target="_blank" href={"https://medium.com/@drking445"}><img src={medium} className={"medium"} alt={"Medium"}/></a>
+                <p>Please follow my Medium page where I will write about my journey through software development and personal achievements! </p>
+            </div>
             </body>
-
-
             </html>
-
-
         );
     }
 

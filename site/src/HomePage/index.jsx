@@ -5,10 +5,13 @@ class HomePage extends React.Component {
 
     constructor(props){
         super(props);
+        this.state = {
+          show: false
+        };
         this.click = this.click.bind(this);
     }
 
-    click(){
+    click() {
         /*
         cloudinary.openUploadWidget(
             {
@@ -20,21 +23,18 @@ class HomePage extends React.Component {
             function(error, result) { console.log(error, result) });
 
             */
-        alert("I was clicked");
+        this.setState({show: !this.state.show});
     }
     render() {
         return (
 
             <html>
-            <script src="toggle.js"/>
-            <body className={"ab"}>
+            <body className={this.state.show ? "ab2" : "ab"}>
             <title>A Peak Into My Life</title>
-            <h1> Demetrius King</h1>
-            <h2>Welcome to my HomePage!</h2>
+            <h2 className={"homepage"}>Welcome to my HomePage!</h2>
             <p className={"homep"}>Here you can learn more about me, looking at my resume, and observe some of my passion projects!</p>
             <button id={"theme"} onClick={this.click}>Change Theme</button>
             <img src={jordan} className={"jordan"} align="middle"/>
-
             </body>
             </html>
         );

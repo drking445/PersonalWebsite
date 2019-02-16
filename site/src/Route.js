@@ -7,6 +7,10 @@ import About from './About Me';
 import Nav from './NavBar';
 import FutureWork from './FutureWork';
 
+const divStyle={
+    textAlign: "center"
+}
+
 const Routes = () => (
     <main>
         <Nav/>
@@ -17,6 +21,7 @@ const Routes = () => (
         <Route exact path='/about' component={About}/>
         <Route exact path='/future' component={FutureWork}/>
     </Switch>
+        <div style={divStyle}> &copy; Created by Demetrius King</div>
     </main>
 )
 
